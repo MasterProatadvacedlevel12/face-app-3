@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/2089154.jpg);
+    }
+    
+    .image_reconginzer {
+    color: red;
+    font-size: x-large;
+    font-style: italic;
+    background-color: whitesmoke;
+    width: 80%;
+    }
+    
+    .objects {
+        color: brown;
+        font-style: inherit;
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #result, #camera {
+        border: dotted;
+        border-color: rgb(0, 0, 255);
+        width: 350px;
+        height: 300px;
+    }
+    
+    #image__object, #Accuracy {
+        color: darkgoldenrod;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
