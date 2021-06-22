@@ -5,7 +5,7 @@ Webcam.set({
     png_quality: 90});
 
     camera = document.getElementById("camera");
-    Webcam.attach('#camera');
+    Webcam.attach(camera);
 
     function take_snapshot() {
 
@@ -16,7 +16,7 @@ Webcam.set({
 
     console.log(ml5.version);
 
-    classifier = ml5.imageClassifier("", loaded);
+    classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/cJcrxYooa/model.json", loaded);
 
     function loaded()
     {
